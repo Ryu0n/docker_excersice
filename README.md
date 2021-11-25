@@ -1,5 +1,8 @@
 # docker_excersice
 ## 01.docker_basic
+<details>
+<summary>summary</summary>
+<div markdown="1">
 
 * docker ps [-a]
 * docker container [ls] [-a]
@@ -25,3 +28,6 @@
 * docker logs [container name]
 * docker rm [container id]
 * docker rmi [image id]
+
+</div>
+</details>
