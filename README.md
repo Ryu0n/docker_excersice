@@ -10,7 +10,7 @@
 * docker push
 
 * docker commit  
-이미지 레이어 반영 (변경된 내용을 새로운 컨테이너에 반영)
+  - 이미지 레이어 반영 (변경된 내용을 새로운 컨테이너에 반영)
 * .dockerignore  
   - 컨테이너 빌드시 포함하지 않을 파일 명시
 * docker build -t [tag name] -f [image name] . (Dockerfile directory)
