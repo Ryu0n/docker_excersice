@@ -15,8 +15,9 @@
 * docker commit  
   - 이미지 레이어 반영 (변경된 내용을 새로운 컨테이너에 반영)
 * .dockerignore  
-  - 컨테이너 빌드시 포함하지 않을 파일 명시
-* docker build -t [tag name] -f [image name] . (Dockerfile directory)
+  - 이미지 빌드시 포함하지 않을 파일 명시
+* docker build -t [image name:tag name] . (Dockerfile directory)
+  - 도커파일로 이미지 빌드
 * docker run --name [container name] -d (background) -p (port) (host:dst) [image name:tag name]
 * docker stop / restart 
 
